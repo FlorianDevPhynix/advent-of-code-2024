@@ -1,0 +1,5 @@
+[workspace]
+members = ["day-1", "day-3"]
+
+[workspace.dependencies]
+nom = "7.1.3"

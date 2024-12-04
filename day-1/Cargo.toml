@@ -1,5 +1,5 @@
 [package]
-name = "day-3"
+name = "day-1"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,8 +8,6 @@ nom = { workspace = true }
 
 [dev-dependencies]
 divan = "0.1.16"
-
-[lib]
 
 [[bench]]
 name = "benchmarks"
