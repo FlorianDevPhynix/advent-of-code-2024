@@ -1,0 +1,14 @@
+[package]
+name = "day-2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nom = { workspace = true }
+
+[dev-dependencies]
+divan = "0.1.16"
+
+[[bench]]
+name = "benchmarks"
+harness = false
